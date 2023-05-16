@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,700&display=swap');
+
+@font-face {
+    font-family: kerox;
+    src: url(/src/font/Kerox-NonCommercial.otf);
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 20px;
+
+}
+body{
+ background-color: #1E2021;
+
+}
+header{
+
+display: flex;
+flex-direction: row-reverse;
+}
+#titulo{
+    color: aliceblue;
+    font-family: 'kerox';
+    font-size: 70px;
+    margin-right: 400px;
+}
+#titulo:hover{
+    color: #00BFFF;
+    cursor: pointer;
+}
+
+.logo{
+width: 250px;
+}
+main{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.titulo{
+    font-family: 'kerox';
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    color: whitesmoke;
+    max-height: 60px;
+    margin-top: -40px;
+    font-size: 12px;
+}
+#rr{
+padding: 2px;
+}
+.listagem-maquinas{
+    margin-left: 7%;
+    max-width: 300px; 
+    
+    padding: 5px;
+    max-height: auto;
+
+}
+.info-maquinas{
+    font-size: 28px;
+    font-family: 'kerox';
+    color: white;
+}
+
+.cartao-maquinas{
+    margin-top: 50px;
+    justify-content: center;
+    padding: 5px;
+    background-image: url(/src/img/papel.PNG);
+    border-radius: 20px;
+}
+.cartao-maquinas:hover {
+    box-shadow: 10px 10px 50px 10px #013D57;
+    width: 300px;
+    transition: 0.02ms;
+    background-image: none;
+    cursor: pointer;
+}
+.tipos{
+    font-family: 'kerox';
+    display: flex;
+    padding: 10px;
+    height: auto;
+    gap: 45px;
+    justify-content: center;
+    color: whitesmoke;
+}
+.agua{
+
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #008080;
+    
+}
+
+.fogo{
+    
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF4500;
+}
+
+.plasma{
+    width: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #CE2EE8;
+}
+.choque{
+    width: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #575757;
+}
+.acido{
+    width: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #9ACD32;
+}
+
+.gelo{
+    width: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #B0E0E6;}
+
+    .nada{
+        width: 120px;
+        font-size: 18px;
+        font-weight: bold;
+
+    }
+.descricao{
+height: 200px;
+color: white;
+overflow-y: scroll;
+}
+
+p{
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'kerox';
+    border-radius: 50px;
+    
+}
+
+.fotomaquina{
+    width:100%;
+    height: auto;
+    border-radius: 50px;
+}
